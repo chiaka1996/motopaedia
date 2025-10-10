@@ -68,3 +68,8 @@ body {
 .navLinkFooter:hover{
   border-bottom: 1px solid #000;
 }
+
+.whyMotorpedia{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(455px, 1fr));
+}

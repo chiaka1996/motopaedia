@@ -10,8 +10,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Button from "./components/Button";
 import AutomotiveIntelligence  from "./components/AutoIntelligence";
 import WhyMotorpedia from "./components/WhyMotorpedia";
+import Delarex from "./components/delarex";
 gsap.registerPlugin(ScrollTrigger);
-
 
 
 export default function Home() {
@@ -70,6 +70,7 @@ export default function Home() {
 
   <AutomotiveIntelligence />
   <WhyMotorpedia />
+  <Delarex />
    </main>
   );
 }
