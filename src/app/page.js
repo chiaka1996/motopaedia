@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <main>
     {/* banner section */}
-   <section className="overflow-x-hidden bg-[linear-gradient(270deg,rgba(0,0,0,0)_21.89%,rgba(0,0,0,0.6)_100%),url('/img/banner.png')] bg-cover bg-center w-full min-h-screen">
+   <section className="overflow-x-hidden bg-[linear-gradient(270deg,rgba(0,0,0,0)_21.89%,rgba(0,0,0,0.6)_100%),url('https://res.cloudinary.com/chiaka/image/upload/v1760092279/banner_sdxdxe.png')] bg-cover bg-center w-full min-h-screen">
       <NavigationBar />
     <MobileNavigationBar />
 
