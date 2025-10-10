@@ -44,7 +44,7 @@ const NavigationBar = () => {
 
     return(
         <div className="w-full px-[16px] md:px-[20px] py-[27px] bg-[#fff] md:relative fixed top-0 left-0 bg-transparent">
-        <nav className="rounded-[12px] border border-[#FFFFFF1A] max-w-[1372px] mx-auto py-[20px] bg-[#FFFFFF05] flex justify-between items-center px-[16px] backdrop-blur-[40px]">
+        <nav className="rounded-[12px] border border-[#FFFFFF1A] max-w-[1374px] mx-auto py-[20px] bg-[#FFFFFF05] flex justify-between items-center px-[16px] backdrop-blur-[40px]">
            <Link href="/">
             <div className="relative w-[49px] h-[49px]">
             <Image 
