@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const AllInOne = () => {
     return(
-        <section className="py-[100px]">
+        <section className="py-[100px] bg-[#F5F5F5]">
             <div className="px-[16px] md:px-[20px] xl:px-0 max-w-[1374px] mx-auto flex justify-between gap-[20px] items-center">
                 <div className="w-[604px] space-y-[16px]">
                     <h1 className="text-[56px] text-[#181D27] leading-[120%]">

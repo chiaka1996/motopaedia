@@ -12,6 +12,7 @@ import AutomotiveIntelligence  from "./components/AutoIntelligence";
 import WhyMotorpedia from "./components/WhyMotorpedia";
 import Delarex from "./components/delarex";
 import AllInOne from "./components/AllInOne";
+import Faq from "./components/Faq";
 gsap.registerPlugin(ScrollTrigger);
 
 
@@ -73,6 +74,7 @@ export default function Home() {
   <WhyMotorpedia />
   <Delarex />
   <AllInOne />
+  <Faq />
    </main>
   );
 }
