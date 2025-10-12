@@ -3,15 +3,15 @@ import List from "./DelarexList";
 
 const Delarex = () => {
     return(
-        <section className="w-full bg-[linear-gradient(to_right,rgba(255,255,255,0.1),rgba(255,255,255,0.1)),url('https://res.cloudinary.com/chiaka/image/upload/v1760092313/Yellow_Classic_Sports_Car_1_hlmzsq.png')] bg-no-repeat bg-cover bg-center">
-            <div className="px-[16px] md:px-[20px] xl:px-0 max-w-[1372px] mx-auto py-[55px]">
-                <div className="max-w-[528px] rounded-[8px] border border-[#FFFFFF1A] p-[32px] bg-[#0000001A] backdrop-blur-[60px]">
+        <section className="px-[16px] md:px-[20px] xl:px-0 w-full bg-[linear-gradient(to_right,rgba(255,255,255,0.1),rgba(255,255,255,0.1)),url('https://res.cloudinary.com/chiaka/image/upload/v1760241148/Blue_Classic_Muscle_Car_1_1_h2fm7t.png')] md:bg-[linear-gradient(to_right,rgba(255,255,255,0.1),rgba(255,255,255,0.1)),url('https://res.cloudinary.com/chiaka/image/upload/v1760092313/Yellow_Classic_Sports_Car_1_hlmzsq.png')] bg-no-repeat bg-cover bg-center">
+            <div className="max-w-[1372px] h-[1206px] md:h-full mx-auto py-[32px] md:py-[55px]">
+                <div className="max-w-[528px] rounded-[8px] border border-[#FFFFFF1A] p-[20px] md:p-[32px] bg-[#0000001A] backdrop-blur-[60px]">
                     <div className="flex justify-between items-center w-full mb-[24px]">
-                        <div className="text-[40px] leading-[110%] tracking-[-2%] text-[#fff] text-[40px]">
+                        <div className="text-[40px] leading-[110%] tracking-[-2%] text-[#fff] font-[400]">
                             <span className="block">Built by Delarex</span>
                             <span>Technologies Inc.</span>
                         </div>
-                        <div className="relative w-[52px] h-[52px]">
+                        <div className="relative w-[52px] h-[52px] hidden md:block">
                             <Image src="/icons/delarex.png" fill alt="delarex inc with motopedia" />
                         </div>
                     </div>

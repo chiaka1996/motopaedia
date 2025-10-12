@@ -44,9 +44,9 @@ const NavigationBar = () => {
 
     return(
         <div className="w-full px-[16px] md:px-[20px] py-[27px] bg-[#fff] md:relative fixed top-0 left-0 bg-transparent">
-        <nav className="rounded-[12px] border border-[#FFFFFF1A] max-w-[1374px] mx-auto py-[20px] bg-[#FFFFFF05] flex justify-between items-center px-[16px] backdrop-blur-[40px]">
+        <nav className="rounded-[12px] border border-[#FFFFFF1A] max-w-[1374px] mx-auto py-[12px] sm:py-[20px] bg-[#FFFFFF05] flex justify-between items-center px-[16px] backdrop-blur-[40px]">
            <Link href="/">
-            <div className="relative w-[49px] h-[49px]">
+            <div className="relative w-[37px] sm:w-[49px] h-[37px] sm:h-[49px]">
             <Image 
              src="/icons/logo.png"
              alt="thribe community logo"
@@ -69,7 +69,7 @@ const NavigationBar = () => {
                  <Button name="Join Now" classname="w-[108px] h-[48px] md:w-[141px] bg-[#E6C850] hidden md:block"/>
                   </Link>
                 <div className="relative w-[24px] h-[24px]" onClick={toggleMobileNavbarFunction} >
-                     <Image src="/img/open_menu.png" fill alt="thribe community menu option" className="object-center md:hidden shrink-0" /> 
+                     <Image src="/icons/open_menu.png" fill alt="thribe community menu option" className="object-center md:hidden shrink-0" /> 
                 </div>
                 </div>
         </nav>
