@@ -75,9 +75,9 @@ export default function Home() {
   <AutomotiveIntelligence />
   <WhyMotorpedia />
   <Delarex />
-    {/* <AllInOne />
-  <Faq />
-  <WaitList />
+  <AllInOne />
+   <Faq /> 
+  {/*<WaitList />
   <Footer /> */}
    </main>
   );

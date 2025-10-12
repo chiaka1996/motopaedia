@@ -48,21 +48,21 @@ const Faq = () => {
     }
 ]
     return(
-        <section className="py-[100px] px-[16px] md:px-[20px] xl:px-0">
-            <div className="max-w-[1374px] mx-auto flex gap-[20px] justify-between items-center">
-                <div className="w-[496px] space-y-[48px]">
-                    <h2 className="text-[56px] leading-[120%] tracking-[2%] text-[#383838]">
+        <section className="py-[50px] sm:py-[100px] px-[16px] md:px-[20px] xl:px-0">
+            <div className="max-w-[1374px] mx-auto flex flex-col md:flex-row gap-[10px] md:gap-[20px] justify-between items-center">
+                <div className="w-full md:w-[496px] space-y-[48px]">
+                    <h2 className="text-center md:text-left text-[32px] sm:text-[46px] md:text-[56px] leading-[120%] tracking-[2%] text-[#383838]">
                         <span className="block">Frequently Asked</span>
                         <span>Question</span>
                     </h2>
-                    <div className="relative w-full h-[500px] rounded-[12px]">
+                    <div className="relative w-full h-[500px] rounded-[12px] hidden md:block">
                         <Image src="https://res.cloudinary.com/chiaka/image/upload/v1760144109/Frame_5_gzauxn.png" fill alt="motorpedia frequently asked questions" className="object-center object-cover" />
                     </div>
                 </div>
 
-                <div className="w-[590px]">
+                <div className="w-full md:w-[590px]">
                     {FaqQuestionsAndAnswer.map((list, i) => <div className="p-[24px] border border-b-[#E7E9EF] border-x-0 border-t-0 space-y-[16px]" key={i}>
-                        <h3 className="flex justify-between item-start text-[20px] text-[#262626] font-[600]">
+                        <h3 className="flex justify-between item-start trext-[18px]  sm:text-[20px] text-[#262626] font-[600]">
                             <span>{list.question}</span>
                             <div 
                              onClick={() => setActiveIndex(activeIndex === i ? null : i)}

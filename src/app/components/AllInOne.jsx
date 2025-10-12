@@ -2,10 +2,10 @@ import Image from "next/image";
 
 const AllInOne = () => {
     return(
-        <section className="py-[100px] bg-[#F5F5F5]">
-            <div className="px-[16px] md:px-[20px] xl:px-0 max-w-[1374px] mx-auto flex justify-between gap-[20px] items-center">
-                <div className="w-[604px] space-y-[16px]">
-                    <h1 className="text-[56px] text-[#181D27] leading-[120%]">
+        <section className="py-[50px] sm:py-[100px] bg-[#F5F5F5] px-[16px] md:px-[20px] xl:px-0">
+            <div className="max-w-[1374px] mx-auto flex flex-col md:flex-row justify-between gap-[20px] items-center">
+                <div className="w-full md:w-[604px] space-y-[16px]">
+                    <h1 className="text-[32px] sm:text-[46px] md:text-[56px] text-[#181D27] leading-[120%]">
                         <span className="block">All-in-one</span>
                         <span className="leading-[60px]">Encyclopedia</span><span> for cars</span>
                     </h1>
@@ -25,13 +25,13 @@ const AllInOne = () => {
                     </div>
                 </div>
 
-                <div className="w-[532px] h-[640px] justify-center flex items-center relative">
-                    <div className="relative w-[532px] h-[480px]">
+                <div className="w-full md:w-[532px] h-[640px] justify-center flex items-center relative">
+                    <div className="relative w-full md:w-[532px] h-[480px]">
                     <Image src="/img/blob.png" fill alt="motopedia" className="object-center" />
                     </div>
 
-                    <div className="absolute top-0 right-0">
-                        <div className="relative w-[363px] h-[690px]">
+                    <div className="absolute inset-0">
+                        <div className="relative w-[100%] md:w-[363px] h-[640px] md:h-[690px]">
                         <Image src="https://res.cloudinary.com/chiaka/image/upload/v1760092309/iPhone_mockup_butpcj.png" fill alt="motopedia" className="object-center" />
                         </div>
                     </div>
