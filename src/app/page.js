@@ -13,6 +13,8 @@ import WhyMotorpedia from "./components/WhyMotorpedia";
 import Delarex from "./components/delarex";
 import AllInOne from "./components/AllInOne";
 import Faq from "./components/Faq";
+import WaitList from "./components/WaitList";
+import Footer from "./components/Footer";
 gsap.registerPlugin(ScrollTrigger);
 
 
@@ -75,6 +77,8 @@ export default function Home() {
   <Delarex />
   <AllInOne />
   <Faq />
+  <WaitList />
+  <Footer />
    </main>
   );
 }

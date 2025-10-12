@@ -48,8 +48,8 @@ const Faq = () => {
     }
 ]
     return(
-        <section className="py-[100px]">
-            <div className="px-[16px] md:px-[20px] xl:px-0 max-w-[1374px] mx-auto flex justify-between items-center">
+        <section className="py-[100px] px-[16px] md:px-[20px] xl:px-0">
+            <div className="max-w-[1374px] mx-auto flex gap-[20px] justify-between items-center">
                 <div className="w-[496px] space-y-[48px]">
                     <h2 className="text-[56px] leading-[120%] tracking-[2%] text-[#383838]">
                         <span className="block">Frequently Asked</span>
