@@ -47,10 +47,10 @@ export default function Home() {
         powered by next-generation artificial intelligence.
       </p>
       <div className="flex flex-col md:flex-row items-center gap-[13px]">
-        <Link href='/#waitlist'>
+        <Link href='/#waitlist' className="w-full">
         <Button name="Join the Waitlist Now" classname="cursor-pointer w-full md:w-[193px] h-[48px] py-[12px] bg-[#E6C850]" />
         </Link>
-        <Link href="/#about">
+        <Link href="/#about" className="w-full">
         <button className="cursor-pointer flex justify-center bg-[#fff] gap-x-[6px] items-center w-full md:w-[149px] h-[48px] font-[600] text-[16px] leading-[24px] text-[#000] rounded-[8px] py-[12px] border border-[#D5D7DA]">
           <span>Learn More</span>
           <span className="material-symbols-outlined">chevron_right</span>

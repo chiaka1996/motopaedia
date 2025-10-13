@@ -24,27 +24,27 @@ const Faq = () => {
         {
             id:"1",
             question: "What makes MotorPedia AI different from other car websites?",
-            answer: `You can ask virtually anything car-related! From "What&apos;s the best family SUV under $30,000?" to "How often should I change the oil in a 2019 Honda Accord?" or "What's the current market value of my car?" Our AI handles technical specs, maintenance schedules, buying advice, market trends, comparisons, and much more.`
+            answer: `Motorpedia AI goes beyond listings. It's powered by artificial intelligence that personalizes your car search, provides real-time pricing, compares specs, and even helps you make smarter car finance decisions.`
     },
     {
         id: "2",
-        question: "How accurate is the AI&apos;s information about cars?",
-        answer: "How accurate is the AI's information about cars?"
+        question: "Is Motorpedia AI's monthly brand-new vehicle giveaway 100% at $0 cost to winners?",
+        answer: " Yes! Every month, one verified user wins a brand-new car completely free — no hidden fees or conditions. Just join, engage, and you could be the next Motorpedia winner"
     },
      {
         id: "3",
         question: "Can MotorPedia AI help me find the right car for my budget?",
-        answer: "Can MotorPedia AI help me find the right car for my budget?"
+        answer: "Yes! Our AI engine matches you with vehicles that fit your budget and lifestyle, showing you the best deals across trusted platforms in seconds."
     },
     {
         id: "4",
         question: "Is MotorPedia AI free to use?",
-        answer: "Is MotorPedia AI free to use?"
+        answer: "Yes. Motorpedia AI is free to browse, search, and chat with. Optional premium upgrades unlock advanced features like MotorPay, market insights, and early-access drops."
     },
     {
         id: "5",
         question: "What types of questions can I ask MotorPedia AI?",
-        answer: `You can ask virtually anything car-related! From &apos;What&apos;s the best family SUV under $30,000?&apos; to &apos;How often should I change the oil in a 2019 Honda Accord?&apos; or &apos;What&apos;s the current market value of my car?&apos; Our AI handles technical specs, maintenance schedules, buying advice, market trends, comparisons, and much more.`
+        answer: `You can ask anything related to cars — model comparisons, car recommendations, ownership costs, maintenance tips, or EV insights. Motorpedia AI responds instantly, helping you make confident decisions.`
     }
 ]
     return(
