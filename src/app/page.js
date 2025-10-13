@@ -35,7 +35,7 @@ export default function Home() {
       </div>
 
       <h1 className="font-[400] text-[32px] sm:text-[46px] md:text-[56px] leading-[110%] tracking-[-2%]">
-        The World&apos;s First AI-Powered Automotive <span className="font-[var( --font-instrument-serif)]">Encyclopedia</span> Super App
+        The World&apos;s First AI-Powered Automotive <span style={{ fontFamily: "var(--font-instrument-serif)" }} className="italic">Encyclopedia</span> Super App
       </h1>
       </div>
 
@@ -47,17 +47,21 @@ export default function Home() {
         powered by next-generation artificial intelligence.
       </p>
       <div className="flex flex-col md:flex-row items-center gap-[13px]">
+        <Link href='/#waitlist'>
         <Button name="Join the Waitlist Now" classname="cursor-pointer w-full md:w-[193px] h-[48px] py-[12px] bg-[#E6C850]" />
+        </Link>
+        <Link href="/#about">
         <button className="cursor-pointer flex justify-center bg-[#fff] gap-x-[6px] items-center w-full md:w-[149px] h-[48px] font-[600] text-[16px] leading-[24px] text-[#000] rounded-[8px] py-[12px] border border-[#D5D7DA]">
           <span>Learn More</span>
           <span className="material-symbols-outlined">chevron_right</span>
         </button>
+        </Link>
       </div>
 
       </div>
 
       {/* monthly giveaway */}
-      <div className="w-full md:w-[357px] h-full py-[28px] px-[24px] bg-[#00000033] border md:border-[6px] border-t-[#FFDE59] border-x-0 border-b-0 rounded-[8px]">
+      <div className="w-full md:w-[357px] h-full py-[28px] px-[24px] bg-[#00000033] border md:border-t-[6px] border-t-[#FFDE59] border-x-0 border-b-0 rounded-[8px]">
         <Image src="/icons/gift.png" alt="motorpedia" width={20} height={20} />
         <div className="mt-[20px]">
           <h3 className="text-[#FEFEFE] font-[500] text-[20px] leading-[110%] tracking-[-2%]">Monthly Giveaway</h3>

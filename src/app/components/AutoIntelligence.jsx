@@ -8,7 +8,7 @@ const AutomotiveIntelligence = () => {
                     <Image src="https://res.cloudinary.com/chiaka/image/upload/v1760092230/Frame_5_o2u9w6.png" fill alt="motorpaedia auto intelligence" className="bg-center bg-cover" />
                  </div>
                 <div className="w-full md:w-[591px] space-y-[24px]">
-                    <h2 className="text-[32px] sm:text-[46px] md:text-[56px] font-[400] leading-[120%] tracking-[-2%] text-[#383838]">Automotive Intelligence</h2>
+                    <h2 className="text-[32px] sm:text-[46px] md:text-[56px] font-[400] leading-[120%] tracking-[-2%] text-[#383838]">Automotive <span style={{ fontFamily: "var(--font-instrument-serif)" }} className="italic">Intelligence</span></h2>
                     <div className="space-y-[24px] max-w-[394px] text-[#414651]">
                     <p>
                     Imagine having the entire automotive world in your pocket—every make, every model, every detail—instantly accessible through the power of AI.

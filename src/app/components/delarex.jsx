@@ -8,7 +8,7 @@ const Delarex = () => {
                 <div className="max-w-[528px] rounded-[8px] border border-[#FFFFFF1A] p-[20px] md:p-[32px] bg-[#0000001A] backdrop-blur-[60px]">
                     <div className="flex justify-between items-center w-full mb-[24px]">
                         <div className="text-[40px] leading-[110%] tracking-[-2%] text-[#fff] font-[400]">
-                            <span className="block">Built by Delarex</span>
+                            <span className="block">Built by <span style={{ fontFamily: "var(--font-instrument-serif)" }} className="italic">Delarex</span></span>
                             <span>Technologies Inc.</span>
                         </div>
                         <div className="relative w-[52px] h-[52px] hidden md:block">

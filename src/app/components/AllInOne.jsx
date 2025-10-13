@@ -7,7 +7,7 @@ const AllInOne = () => {
                 <div className="w-full md:w-[604px] space-y-[16px]">
                     <h1 className="text-[32px] sm:text-[46px] md:text-[56px] text-[#181D27] leading-[120%]">
                         <span className="block">All-in-one</span>
-                        <span className="leading-[60px]">Encyclopedia</span><span> for cars</span>
+                        <span className="leading-[60px]">Encyclopedia</span><span style={{ fontFamily: "var(--font-instrument-serif)" }} className="italic"> for cars</span>
                     </h1>
 
                     <p className="font-[500] text-[#666666]">

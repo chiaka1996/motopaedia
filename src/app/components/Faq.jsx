@@ -53,7 +53,7 @@ const Faq = () => {
                 <div className="w-full md:w-[496px] space-y-[48px]">
                     <h2 className="text-center md:text-left text-[32px] sm:text-[46px] md:text-[56px] leading-[120%] tracking-[2%] text-[#383838]">
                         <span className="block">Frequently Asked</span>
-                        <span>Question</span>
+                        <span style={{ fontFamily: "var(--font-instrument-serif)" }} className="italic">Question</span>
                     </h2>
                     <div className="relative w-full h-[500px] rounded-[12px] hidden md:block">
                         <Image src="https://res.cloudinary.com/chiaka/image/upload/v1760144109/Frame_5_gzauxn.png" fill alt="motorpedia frequently asked questions" className="object-center object-cover" />
