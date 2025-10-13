@@ -48,7 +48,7 @@ const Faq = () => {
     }
 ]
     return(
-        <section className="py-[50px] sm:py-[100px] px-[16px] md:px-[20px] xl:px-0">
+        <section className="py-[50px] sm:py-[100px] px-[16px] md:px-[20px] xl:px-0" id="faq">
             <div className="max-w-[1374px] mx-auto flex flex-col md:flex-row gap-[10px] md:gap-[20px] justify-between items-center">
                 <div className="w-full md:w-[496px] space-y-[48px]">
                     <h2 className="text-center md:text-left text-[32px] sm:text-[46px] md:text-[56px] leading-[120%] tracking-[2%] text-[#383838]">

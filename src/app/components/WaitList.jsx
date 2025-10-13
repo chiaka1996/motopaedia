@@ -1,7 +1,7 @@
 import Image from "next/image";
 const WaitList = () => {
     return(
-        <section className="w-full px-[16px] md:px-[20px] xl:px-0 pb-[100px]">
+        <section className="w-full px-[16px] md:px-[20px] xl:px-0 pb-[100px]" id="waitlist">
             <div className="max-w-[1374px] mx-auto bg-[#FFDE59] rounded-[14px] py-[64px] md:py-[80px] px-[16px] relative">
             {/* abstract image left */}
             <div className="absolute left-0 top-0 bottom-0">

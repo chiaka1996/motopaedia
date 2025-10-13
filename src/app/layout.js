@@ -17,7 +17,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en"  className={` ${inter.variable}  font-[400] antialiased text-[14px] md:text-[16px] leading-[150%]`}> 
+    <html lang="en"  className={` ${inter.variable}  font-[400] antialiased text-[14px] md:text-[16px] leading-[150%] scroll-smooth`}> 
      <head>
         <link
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"

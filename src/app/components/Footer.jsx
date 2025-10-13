@@ -22,13 +22,13 @@ const Footer = () => {
                     <div className="space-y-[24px]">
                         <h3 className="text-[#FFFFFF] text-[22px] font-[500] leading-[120%]">Menu</h3>
                         <div>
-                        <Link href="#">Features</Link>
+                        <Link href="/#feature">Features</Link>
                         </div>
                         <div>
-                         <Link href="#">About</Link>
+                         <Link href="/#about">About</Link>
                          </div>
                           <div>
-                         <Link href="#">Join Us</Link>
+                         <Link href="/#waitlist">Join Us</Link>
                          </div>
                         
                     </div>
@@ -38,7 +38,7 @@ const Footer = () => {
                         <Link href="#">Testimonial</Link>
                         </div>
                          <div>
-                          <Link href="#">FAQ'S</Link>
+                          <Link href="/#faq">FAQ'S</Link>
                         </div>
                     </div>
                 </div>

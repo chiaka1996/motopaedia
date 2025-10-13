@@ -59,13 +59,13 @@ const NavigationBar = () => {
              <div className="hidden md:flex justify-between space-x-[40px] text-[16px] text-[#354764]  items-center">
                <Link href="/"  className="text-[#FFFFFFCC]">Home</Link>
 
-                 <Link href="/about" className="text-[#FFFFFFCC]">About</Link>
+                 <Link href="/#about" className="text-[#FFFFFFCC]">About</Link>
 
-                 <Link href="" className="text-[#FFFFFFCC] ">FAQ</Link>
+                 <Link href="/#faq" className="text-[#FFFFFFCC] ">FAQ</Link>
              </div>
 
                 <div className="flex w-[30px] md:w-[152px] justify-between items-center ">
-                  <Link href="#">
+                  <Link href="/#waitlist">
                  <Button name="Join Now" classname="w-[108px] h-[48px] md:w-[141px] bg-[#E6C850] hidden md:block"/>
                   </Link>
                 <div className="relative w-[24px] h-[24px]" onClick={toggleMobileNavbarFunction} >
