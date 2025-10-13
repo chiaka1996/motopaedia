@@ -8,39 +8,7 @@ import { usePathname } from "next/navigation";
 
 
 const NavigationBar = () => {
-    const closeDropdowns = useRef(null)
-    const closeMediaDropdown = useRef(null)
     const {toggleMobileNavbarFunction} = useAllContext();
-     const pathname = usePathname();
-
-     // Close when clicking outside
-  useEffect(() => {
-    function handleClickOutside(event) {
-      if (closeDropdowns.current && !closeDropdowns.current.contains(event.target)) {
-        setOpenEvent(false);
-      }
-      if (closeMediaDropdown.current && !closeMediaDropdown.current.contains(event.target)) {
-        setOpenMedia(false);
-      }
-    }
-    document.addEventListener("mousedown", handleClickOutside);
-
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, []);
-
-
-     const toggleOpenEventLink = () => {
-        setOpenMedia(false)
-        setOpenEvent((prev) => !prev)
-     }
-
-     const toggleOpenMediaLink = () => {
-        setOpenEvent(false)
-        setOpenMedia((prev) => !prev)
-     }
-
 
     return(
         <div className="w-full px-[16px] md:px-[20px] py-[27px] bg-[#fff] md:relative fixed top-0 left-0 bg-transparent">
