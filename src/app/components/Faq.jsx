@@ -24,11 +24,11 @@ const Faq = () => {
         {
             id:"1",
             question: "What makes MotorPedia AI different from other car websites?",
-            answer: `You can ask virtually anything car-related! From "What's the best family SUV under $30,000?" to "How often should I change the oil in a 2019 Honda Accord?" or "What's the current market value of my car?" Our AI handles technical specs, maintenance schedules, buying advice, market trends, comparisons, and much more.`
+            answer: `You can ask virtually anything car-related! From "What&apos;s the best family SUV under $30,000?" to "How often should I change the oil in a 2019 Honda Accord?" or "What's the current market value of my car?" Our AI handles technical specs, maintenance schedules, buying advice, market trends, comparisons, and much more.`
     },
     {
         id: "2",
-        question: "How accurate is the AI's information about cars?",
+        question: "How accurate is the AI&apos;s information about cars?",
         answer: "How accurate is the AI's information about cars?"
     },
      {
@@ -44,7 +44,7 @@ const Faq = () => {
     {
         id: "5",
         question: "What types of questions can I ask MotorPedia AI?",
-        answer: `You can ask virtually anything car-related! From "What's the best family SUV under $30,000?" to "How often should I change the oil in a 2019 Honda Accord?" or "What's the current market value of my car?" Our AI handles technical specs, maintenance schedules, buying advice, market trends, comparisons, and much more.`
+        answer: `You can ask virtually anything car-related! From &apos;What&apos;s the best family SUV under $30,000?&apos; to &apos;How often should I change the oil in a 2019 Honda Accord?&apos; or &apos;What&apos;s the current market value of my car?&apos; Our AI handles technical specs, maintenance schedules, buying advice, market trends, comparisons, and much more.`
     }
 ]
     return(
