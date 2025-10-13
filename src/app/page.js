@@ -77,8 +77,8 @@ export default function Home() {
   <Delarex />
   <AllInOne />
    <Faq /> 
-  {/*<WaitList />
-  <Footer /> */}
+ <WaitList />
+   <Footer />
    </main>
   );
 }

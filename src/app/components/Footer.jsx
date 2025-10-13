@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <main className="w-full bg-[#060606] px-[16px] md:px-[20px] xl:px-0 py-[40px] text-[#94949E]">
         <section className="max-w-[1200px] mx-auto">
-            <div className="flex justify-between items-start">
+            <div className="flex flex-col md:flex-row justify-between gap-[32px] items-start">
                 {/* footer logo */}
                 <div className="space-y-[12px]">
                     <div className="relative w-[73px] h-[72px]">
@@ -45,7 +45,7 @@ const Footer = () => {
 
             </div>
 
-            <div className="mt-[50px] w-full py-[30px] px-[10px] flex justify-between border border-[#FFFFFF1A] border-x-0 border-b-0">
+            <div className="mt-[50px] w-full py-[30px] px-[10px] flex flex-col md:flex-row gap-[10px] justify-between border border-[#FFFFFF1A] border-x-0 border-b-0">
                 <p>2025 Delarex Technologies Inc. All rights reserved.</p>
                 <div className="flex gap-x-[10px]">
                     <div className="cursor-pointer shrink-0 w-[44px] h-[44px] rounded-[10px] backdrop-blur-[22.6px] flex justify-center items-center bg-[linear-gradient(180deg,rgba(255,255,255,0.05)_0%,rgba(255,255,255,0.04)_100%),radial-gradient(50%_100%_at_50%_0%,rgba(255,255,255,0.05)_0%,rgba(255,255,255,0)_100%)]">
