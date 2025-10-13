@@ -35,7 +35,7 @@ export default function Home() {
       </div>
 
       <h1 className="font-[400] text-[32px] sm:text-[46px] md:text-[56px] leading-[110%] tracking-[-2%]">
-        The World's First AI-Powered Automotive <span className="font-[var( --font-instrument-serif)]">Encyclopedia</span> Super App
+        The World&apos;s First AI-Powered Automotive <span className="font-[var( --font-instrument-serif)]">Encyclopedia</span> Super App
       </h1>
       </div>
 
