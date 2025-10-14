@@ -82,7 +82,7 @@ const WaitList = () => {
                 <h3 className="text-[32px] sm:text-[46px] md:text-[56px] leading-[120%] text-[#383838]">Join the <span style={{ fontFamily: "var(--font-instrument-serif)" }} className="italic">Waitlist</span> Now</h3>
                 <p className="text-[18px] text-[#000000CC] font-[500] mt-[16px]"><span className="">Join over</span> <span className="inline w-[40px] pl-[4px]"><span ref={numberRef2}>0</span>+</span> early subscribers who are ready to experience the future of cars.</p>
 
-                <form onSubmit={handleSubmit}  className="mt-[40px] w-full">
+                <form onSubmit={handleSubmit}  className="mt-[40px] w-full relative">
                     <div className="w-full flex flex-col md:flex-row justify-between gap-[8px]">
                         <input 
                         type="text" 

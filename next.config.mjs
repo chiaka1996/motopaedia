@@ -5,11 +5,17 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "res.cloudinary.com",
-        pathname: "/chiaka/**", // allow all your Cloudinary images
+        pathname: "/chiaka/**", // Cloudinary images
+      },
+      {
+        protocol: "https",
+        hostname: "img.icons8.com",
+        pathname: "/**", // Icons8 images
       },
     ],
   },
 };
 
 export default nextConfig;
+
 
