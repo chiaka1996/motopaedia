@@ -11,8 +11,19 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Motorpedia",
-  description: "Motorpedia",
+  title: "Motorpedia | Explore Car Knowledge and Reviews",
+  description: "Motorpedia brings you car reviews, automotive insights, and expert comparisons. Learn everything about cars in one place.",
+  openGraph: {
+    title: "Motorpedia",
+    description: "Your encyclopedia for car knowledge and reviews.",
+    url: "https://motorpedia.ai",
+    siteName: "Motorpedia",
+    images: [
+      { url: "/icons/logo.png", width: 1200, height: 630 },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {

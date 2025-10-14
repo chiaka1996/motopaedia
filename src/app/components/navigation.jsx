@@ -11,7 +11,7 @@ const NavigationBar = () => {
     const {toggleMobileNavbarFunction} = useAllContext();
 
     return(
-        <div className="w-full px-[16px] md:px-[20px] py-[27px] bg-[#fff] md:relative fixed top-0 left-0 bg-transparent">
+        <div className="w-full px-[16px] md:px-[20px] [1374px]:px-0 py-[27px] bg-[#fff] md:relative fixed top-0 left-0 bg-transparent">
         <nav className="rounded-[12px] border border-[#FFFFFF1A] max-w-[1374px] mx-auto py-[12px] sm:py-[20px] bg-[#FFFFFF05] flex justify-between items-center px-[16px] backdrop-blur-[40px]">
            <Link href="/">
             <div className="relative w-[37px] sm:w-[49px] h-[37px] sm:h-[49px]">

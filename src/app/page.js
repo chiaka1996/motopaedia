@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <main>
     {/* banner section */}
-   <section className="px-[16px] md:px-[20px] xl:px-0 overflow-x-hidden bg-[linear-gradient(270deg,rgba(0,0,0,0)_21.89%,rgba(0,0,0,0.6)_100%),url('https://res.cloudinary.com/chiaka/image/upload/v1760238938/Yellow_Classic_Sports_Car_1_1_fus9kx.png')] md:bg-[linear-gradient(270deg,rgba(0,0,0,0)_21.89%,rgba(0,0,0,0.6)_100%),url('https://res.cloudinary.com/chiaka/image/upload/v1760092279/banner_sdxdxe.png')] bg-cover bg-center w-full min-h-screen">
+   <section className="px-[16px] md:px-[20px] [1374px]:px-0 overflow-x-hidden bg-[linear-gradient(270deg,rgba(0,0,0,0)_21.89%,rgba(0,0,0,0.6)_100%),url('https://res.cloudinary.com/chiaka/image/upload/v1760238938/Yellow_Classic_Sports_Car_1_1_fus9kx.png')] md:bg-[linear-gradient(270deg,rgba(0,0,0,0)_21.89%,rgba(0,0,0,0.6)_100%),url('https://res.cloudinary.com/chiaka/image/upload/v1760092279/banner_sdxdxe.png')] bg-cover bg-center w-full min-h-screen">
       <NavigationBar />
     <MobileNavigationBar />
 

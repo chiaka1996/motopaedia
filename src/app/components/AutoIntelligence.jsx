@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const AutomotiveIntelligence = () => {
     return(
-        <section className="w-full bg-[#FFFFFF] py-[55px] md:py-[100px] px-[16px] md:px-[20px] xl:px-0" id="about">
+        <section className="w-full bg-[#FFFFFF] py-[55px] md:py-[100px] px-[16px] md:px-[20px] [1374px]:px-0" id="about">
             <div className="max-w-[1374px] mx-auto flex flex-col-reverse md:flex-row items-center gap-[32px] md:gap-[80px]">
                  <div className="relative w-full md:w-[644px] h-[343px] sm:h-[410px] md:h-[568px] rounded-[12px]">
                     <Image src="https://res.cloudinary.com/chiaka/image/upload/v1760092230/Frame_5_o2u9w6.png" fill alt="motorpaedia auto intelligence" className="bg-center bg-cover" />
