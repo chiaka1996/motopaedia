@@ -1,12 +1,11 @@
 "use client"
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef} from "react";
 import gsap from "gsap";
 import Image from "next/image";
 import Link from "next/link";
 import NavigationBar from "./components/navigation";
 import MobileNavigationBar from "./components/MobileNav";
 import { useAllContext } from "./context/allcontext";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Button from "./components/Button";
 import AutomotiveIntelligence  from "./components/AutoIntelligence";
 import WhyMotorpedia from "./components/WhyMotorpedia";
@@ -15,10 +14,26 @@ import AllInOne from "./components/AllInOne";
 import Faq from "./components/Faq";
 import WaitList from "./components/WaitList";
 import Footer from "./components/Footer";
-gsap.registerPlugin(ScrollTrigger);
-
 
 export default function Home() {
+  const numberRef = useRef(null);
+
+  useEffect(() => {
+    const obj = { value: 0 };
+    gsap.to(obj, {
+      value: 1000,
+      duration: 60,
+      ease: "none",
+      repeat: -1, // infinite loop
+      onUpdate: () => {
+        numberRef.current.textContent = Math.floor(obj.value);
+      },
+      onRepeat: () => {
+        obj.value = 0; // reset count after each loop
+      },
+    });
+  }, [])
+
 
   return (
     <main>
@@ -31,7 +46,7 @@ export default function Home() {
       <div className="space-y-[20px] text-[#fff] max-w-[746px]">
       <div className="bg-[#0000001A] p-[5px] border border-[#FFFFFF1A] text-[12px] sm:text-[14px] leading-[20px] font-[500] rounded-full flex gap-x-[5px] w-[305px] sm:w-[360px] items-center">
         <Image src="/icons/rocket.png" width={10} height={10} alt="motopaedia" className="shrink-0" />
-      <span>Coming Soon - Join 100,000+ Early Subscribers</span>
+      <span className="flex ">Coming Soon - Join <span className="block w-[40px] pl-[4px]"><span ref={numberRef}>0</span>+</span> Early Subscribers</span>
       </div>
 
       <h1 className="font-[400] text-[32px] sm:text-[46px] md:text-[56px] leading-[110%] tracking-[-2%]">
@@ -46,12 +61,12 @@ export default function Home() {
         Get instant answers, insights, and recommendations—all 
         powered by next-generation artificial intelligence.
       </p>
-      <div className="flex flex-col md:flex-row items-center gap-[13px]">
-        <Link href='/#waitlist' className="w-full">
-        <Button name="Join the Waitlist Now" classname="cursor-pointer w-full md:w-[193px] h-[48px] py-[12px] bg-[#E6C850]" />
+      <div className="flex flex-col md:flex-row gap-[13px] items-center">
+        <Link href='/#waitlist' className="w-full md:w-[193px]">
+        <Button name="Join the Waitlist Now" classname="cursor-pointer w-full  h-[48px] py-[12px] bg-[#E6C850]" />
         </Link>
-        <Link href="/#about" className="w-full">
-        <button className="cursor-pointer flex justify-center bg-[#fff] gap-x-[6px] items-center w-full md:w-[149px] h-[48px] font-[600] text-[16px] leading-[24px] text-[#000] rounded-[8px] py-[12px] border border-[#D5D7DA]">
+        <Link href="/#about" className="w-full md:w-[149px]">
+        <button className="cursor-pointer flex justify-center bg-[#fff] gap-x-[6px] items-center w-full h-[48px] font-[600] text-[16px] leading-[24px] text-[#000] rounded-[8px] py-[12px] border border-[#D5D7DA]">
           <span>Learn More</span>
           <span className="material-symbols-outlined">chevron_right</span>
         </button>

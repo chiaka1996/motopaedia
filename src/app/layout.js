@@ -1,6 +1,8 @@
 import { Inter} from "next/font/google";
 import "./globals.css";
 import { AllContextProvider } from "./context/allcontext";
+import { Toaster } from "react-hot-toast";
+
 
 
 const inter = Inter({
@@ -38,7 +40,8 @@ export default function RootLayout({ children }) {
       <body 
         className={inter.className}
         >
-         <AllContextProvider>
+         <AllContextProvider> 
+        <Toaster position="top-right" reverseOrder={false} />
             {children}
         </AllContextProvider>
       </body>
